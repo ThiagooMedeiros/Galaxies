@@ -1,0 +1,44 @@
+.card {
+  width: 36.6rem;
+  border-radius: 8rem;
+  border: 2px solid var(--platform-aliases-shape-terciria, #323238);
+  background: var(--platform-aliases-shape-principal, #202024);
+
+  overflow: hidden; /*ajusta a img*/
+}
+.card > img {
+  width: 100%;
+}
+.text-card {
+  padding: 3.2rem;
+}
+.text-card > h2 {
+  margin-bottom: 2.4rem;
+  color: var(--platform-aliases-ttulos, #e1e1e6);
+
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+.text-card > p {
+  color: var(--platform-aliases-texto-base, #c4c4cc);
+
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .card {
+    width: 32rem;
+  }
+  .text-card {
+    padding: 2.5rem;
+  }
+  .text-card > h2 {
+    margin-bottom: 2rem;
+
+    font-size: 20px;
+  }
+  .text-card > p {
+    font-size: 9px;
+  }
+}
