@@ -1,0 +1,28 @@
+header {
+  margin-bottom: 6.3rem;
+}
+h1 {
+  color: var(--brand-colors-explorer-mid, #02799d);
+
+  font-size: 5.8rem;
+  font-weight: 900;
+
+  margin-bottom: 8rem;
+}
+header > p {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  header {
+    text-align: center;
+  }
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  header > p {
+    font-size: 2rem;
+  }
+}
